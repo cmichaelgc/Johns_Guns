@@ -1,0 +1,28 @@
+﻿body
+{ width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  font-family: Ebrima;
+  border:thick;
+  border-color: silver;
+  background-image: url(img/bullet_paper.jpg);
+  background-repeat:no-repeat;
+  background-position:center;
+  background-attachment:fixed;
+}
+#header-name{
+    font-size: 80px;
+    font-weight:200;
+    text-align:center;
+    position: center;
+}
+#right_image{
+    float: right;
+    width:500px;
+    height: 300px;
+}
+#left_image{
+    float:left;
+    width: 500px;
+    height: 300px;
+}
