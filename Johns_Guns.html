@@ -8,19 +8,89 @@
 </head>
 <body> 
     <!--Headder-->
-    <header>
-        <span id="header-name">John's Guns</span>
+    <header id="header">
+        <p id="intro">Home of the BIG GUNS!</p>
+
+        <div id="header-name">John's Guns</div>
+
+  
+            <ul id="navBar">
+                <li><a href="#home">Home</a></li>
+                <li><a href="https://home.nra.org/" target="_blank">News</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Locations</a>
+                    <div class="dropdown-content">
+                        <a href="https://www.google.com/maps/place/Indianapolis,+IN/@39.7794476,-86.412935,10z/data=!3m1!4b1!4m5!3m4!1s0x886b50ffa7796a03:0xd68e9df640b9ea7c!8m2!3d39.768403!4d-86.158068" target="_blank">Indianapolis</a>
+                        <a href="https://www.google.com/maps/place/Fort+Wayne,+IN/@41.0825282,-85.2909823,11z/data=!3m1!4b1!4m5!3m4!1s0x8815e4ddff22814b:0x80077b147642f793!8m2!3d41.079273!4d-85.1393513" target="_blank">Fort Wayne</a>
+                        <a href="https://www.google.com/maps/place/Columbus,+OH/@39.9828671,-83.1309114,11z/data=!3m1!4b1!4m5!3m4!1s0x883889c1b990de71:0xe43266f8cfb1b533!8m2!3d39.9611755!4d-82.9987942" target="_blank">Columbus</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">New Guns</a>
+                    <div class="dropdown-content">
+                        <a href="Glock.html">Glock</a>
+                        <a href="Ruger_American.html">Ruger American Rifle</a>
+                        <a href="CZ.html">CZ</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Used Guns</a>
+                    <div class="dropdown-content">
+                        <a href="Savage.html">Savage BA110</a>
+                        <a href="Walther.html">Walther PPS</a>
+                        <a href="SIG.html">SIG PS1000</a>
+                    </div>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">FFL</a>
+                    <div class="dropdown-content">
+                        <a href="https://www.atf.gov/firearms/apply-license" target="_blank">FFL</a>
+                        <a href="https://www.atf.gov/qa-category/national-firearms-act-nfa" target="_blank">Class 3</a>
+                    </div>
+                <li><a href="Deals.html">Deals</a></li>
+                <li class="dropdown">
+                    <a href="javascript:void(0)" class="dropbtn">Links</a>
+                    <div class="dropdown-content">
+                        <a href="http://www.savagearms.com/" target="_blank">Savage Arms</a>
+                        <a href="http://www.waltherarms.com/" target="_blank">Walther Arms</a>
+                        <a href="https://www.sigsauer.com/">SIG Sauer</a>
+                    </div>
+            </ul>
+        <!--buttons
+        <a href="#" class="myButton">Locations </a>
+        <a href="#" class="myButton">New Guns </a>
+        <a href="#" class="myButton">Used </a>
+        <a href="#" class="myButton">Shipping </a>
+        <a href="#" class="myButton">Contact </a>
+        <a href="#" class="myButton">Returns </a>
+        <a href="#" class="myButton">Support </a>
+        <a href="#" class="myButton">     Links </a>
+        <a href="#" class="myButton">    FFL    </a>
+        -->
+
     </header>
-    <!--Banner Scrolling Product Images-->
-    <section id="banner">
-        <div>
-            <img id="right_image" src="img/john_wick2.jpg"/>
-        </div>
-        <div>
-            <img id="left_image" src="img/rambo-header1.jpg"/>
-        </div>
+    <!--Carousel 3/24-->
+    <div class="carousel">
+        <input id="image1" type="radio" name="image-selector" checked="checked" />
+        <label for="image4">View image 4</label>
+        <img src="img/john_wick.jpg" />
+
+        <input id="image2" type="radio" name="image-selector" />
+        <label for="image1">View image 1</label>
+        <img src="img/john_wick2.jpg" />
+
+        <input id="image3" type="radio" name="image-selector" />
+        <label for="image2">View image 2</label>
+        <img src="img/rambo.png" />
+
+        <input id="image4" type="radio" name="image-selector" />
+        <label for="image3">View image 3</label>
+        <img src="img/wayne.jpg" />
+
+        <label for="image4">View image 4</label>
+        <label for="image1">View image 1</label>
+    </div>
+    <section id="welcome-section">
+        <h1 id="welcome-title">About: John's Guns</h1>
+        <p>Eirmod sanctus erat et suscipit elitr rebum sea sed no rebum esse quod ea doming labore ipsum labore volutpat aliquip ea hendrerit vero eirmod ut consequat et kasd diam elitr at nonumy sanctus ipsum at no wisi ut eirmod elitr nonumy dolor nam eu tincidunt nonumy et accumsan sit sed dolore dolor voluptua et aliquyam volutpat dolore facer exerci no labore lorem dolores lorem ut at eu lorem vulputate consequat eirmod dignissim dolor et eos eos et stet sit lorem et enim gubergren minim gubergren eos stet nonumy vero eros sed vero autem aliquyam esse et tincidunt tation amet dolore tincidunt duis lorem et nostrud rebum est qui euismod sanctus illum vulputate amet accusam exerci takimata sadipscing vero nonumy clita</p>
     </section>
-    <!--About Store-->
-    <!--FFL INFORMATION-->
+    <div class="footer">Johns Guns LLC. <strong>Est. 2017</strong></div>
 </body>
 </html>
