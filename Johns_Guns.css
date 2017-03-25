@@ -201,8 +201,32 @@ li {
     padding: 1rem;
     background-color: #efefef;
     text-align: center;
+    border-radius: 10px;
 }
 .html{
     height: 100%;
     box-sizing: border-box;
+}
+#glock
+{
+    font-size: 50px;
+    text-decoration: underline;
+    text-align: center;
+    background-color:whitesmoke;
+    padding: 10px;
+    border-radius:10px;
+}
+#glock_sales{
+    float:right;
+    background-color: whitesmoke;
+    padding:10px;
+    border-radius: 10px;
+}
+#glock22{
+    margin:auto;
+    float:left;
+    border-radius: 10px;
+}
+#cart{
+    text-align:center;
 }
