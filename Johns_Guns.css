@@ -3,7 +3,7 @@
   width: 1000px;
   margin-left: auto;
   margin-right: auto;
-  font-family: Ebrima;
+  font-family: 'Franklin Gothic';
   border:thick;
   border-color: silver;
   background-image: url(img/bullet_paper.jpg);
@@ -12,6 +12,8 @@
   background-attachment:fixed;
   padding-bottom: 6rem;
   min-height: 100%;
+  overflow-x: hidden;
+  height: 100%;
 }
 .header
 {
@@ -194,10 +196,8 @@ li {
     height:20px;
     width:990px;
     float:right;
-    position: fixed;
+    position: relative;
     bottom: 0px;
-    right: auto;
-    left: auto;
     padding: 1rem;
     background-color: #efefef;
     text-align: center;
@@ -229,4 +229,12 @@ li {
 }
 #cart{
     text-align:center;
+}
+#deals{
+    text-align: center;
+    text-decoration: underline;
+    font-size: 60px;
+}
+#sales_main{
+    background-color:whitesmoke;
 }
